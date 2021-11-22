@@ -1,0 +1,46 @@
+
+.imgTable{
+  width:10%;
+}
+
+.h-30{
+  height:30px;
+}
+.trashImg {
+  width: 4%;
+  float: right;
+}
+#surveyList{
+  border: 2px solid var(--primary-color)!important;
+}
+
+.containerForm input { 
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.buttonControl button:hover{
+  background-color: var(--secondary-color);
+}
+#questionContent input{
+  border: 1px solid var(--primary-color);
+}
+.buttonControl{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  cursor: pointer;
+}
+.buttonControl label{
+  font-weight: bold;
+  color: var(--primary-color); 
+  line-height: 45px;
+}
+#btn-validate{
+  background-color: var(--primary-color);
+  color:var(--four-color);
+}
+
+
+
+

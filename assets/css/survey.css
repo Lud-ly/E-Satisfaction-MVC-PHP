@@ -1,0 +1,11 @@
+  .trashImg {
+    width: 5%;
+  }
+  .selectBox{
+    font-size: large;
+  }
+ 
+  .buttonControl button:hover{
+    background-color: var(--secondary-color);
+  }
+  

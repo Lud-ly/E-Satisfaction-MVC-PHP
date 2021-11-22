@@ -1,0 +1,13 @@
+{
+    "name": "p3k/e-satisfaction",
+    "require": {
+        "vlucas/phpdotenv": "^5.3"
+    },
+    
+    "authors": [
+        {
+            "name": "Antoine MORENO",
+            "email": "57266564+Antoine34170@users.noreply.github.com"
+        }
+    ]
+}

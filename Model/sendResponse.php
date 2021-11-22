@@ -1,0 +1,2 @@
+<?php
+AjaxHandler::sendResponseAjax();

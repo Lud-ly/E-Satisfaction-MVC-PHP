@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*****************************************************************/
+html 
+{
+    --font: "Montserrat", sans-serif;
+    --one-color: rgb(230, 42, 46);
+    --two-color: rgb(71, 176, 98);
+    --tree-color:rgb(10, 10, 10);
+    --four-color:#fff;
+    --nav-color:rgb(94, 94, 95);
+    --border-color:rgb(94, 94, 95);
+    --mainTransitionSurvolBt:0.13s ease-in-out;
+
+    height: 100%;
+    background:none;
+    font-family: var(--font);
+}
+
+/*****************************************************************/
+
+/* font google : Montserrat pour titre */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+/* style des titres */
+h1{
+  font-family: var(--font);
+  font-weight: bold;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+h2 {
+  margin-top: 12px;
+  font-size: 20px;
+  font-family: var(--font);
+  font-weight: bold;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+input {
+  border: 2px solid var(--primary-color);
+  padding: 15px;
+  width: 90%;
+  height: 40px;
+}
+thead, tbody td{
+  text-align: center;
+  vertical-align: middle!important;
+  padding: 10px;
+}
+label{
+  color: var(--primary-color);
+}
+
+.subtitle {
+  color: var(--primary-color);
+  margin-top: 5rem!important;
+  margin-bottom: 5rem !important;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: underline;
+  font-style: oblique;
+}
+/*Datatable style*/
+#table_question_wrapper, #table_survey_wrapper {
+  width:100%;
+  border-radius: 15px;
+  box-shadow: var(--border-color) 0px 22px 70px 4px;
+  padding: 40px;
+}
+.page-link{
+   color:#000;
+   border-color: var(--primary-color);
+}
+.page-item.active .page-link {
+  background-color: var(--primary-color);
+}
+#TextBoxesGroup input[type="text"] {
+  padding: 5px 0px;
+  margin: 5px 5px 5px 0px;
+}
+.actionImg img{
+  width: 20%;
+}
+.trashImg {
+  width: 4%;
+  float: right;
+}
+.select-group>select {
+  padding: 15px;
+  margin: 10px;
+  border: 2px solid var(--primary-color);
+}
+.add_form_field {
+  margin-bottom: 50px !important;
+  border: none;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  box-shadow: var(--border-color) 0px 22px 70px 4px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 40px 10px;
+  cursor: pointer;
+}
+.delete {
+  border: none;
+  color: var(--primary-color) !important;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.addAnswerButton {
+  font-size: 16px;
+  font-weight: bold;
+}
+.buttonControl{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  cursor: pointer;
+}
+.buttonControl label{
+  font-weight: bold;
+  color: var(--primary-color); 
+  line-height: 45px;
+}
+.buttonControl button:hover{
+  background-color: var(--primary-color);
+}
+/* btn ajouter */
+#btn-add,#btn-validate{
+  margin: auto;
+  margin-bottom: 50px;
+  width: 15%;
+  height: 40px;
+  background-color: var(--primary-color);
+  border-radius: 15px;
+  color: var(--four-color);
+}
+#btn-update{
+  margin: auto;
+  width: 15%;
+  height: 40px;
+  background-color: var(--primary-color);
+  border-radius: 15px;
+  color: var(--four-color);
+}
+
+#btn-add div, #btn-update div{
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+#btn-add div p, #btn-update div p {
+  padding-left: 5px;
+}
+
+
+#valid-button{
+  background-color:var(--primary-color);
+  border-radius: 50%;
+  padding:5px;
+}
+
+#btn-cancel{
+  width:15%;
+  height: 40px;
+  border-radius: 15px;
+  background-color: var(--one-color);
+  color:var(--four-color);
+  align-items: center;
+  justify-content: center;
+}
+
+#btn-cancel p, #valid-button p{
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  display: flex;
+}
+
+#table_pages_wrapper {
+  margin: 20px;
+}
+
+
